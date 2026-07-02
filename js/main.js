@@ -1,3 +1,12 @@
+const btnuser = document.querySelector("#btnuser");
+const btnadmin = document.querySelector("#btnadmin");
+const modal = document.querySelector(".modal");
+
+
+
+
+
+
 class TarjetaEvento extends HTMLElement {
     constructor() {
         super();
@@ -12,8 +21,8 @@ class TarjetaEvento extends HTMLElement {
 
                 .card-evento {
                     position: relative;
-                    width: 200%;
-                    max-width: 1200px;
+                    width: 100%;
+                    max-width: 1150px;
                     min-height: 320px;
                     border-radius: 28px;
                     margin: 20px auto;
@@ -23,11 +32,9 @@ class TarjetaEvento extends HTMLElement {
                     display: flex;
                     flex-direction: column;
                     justify-content: flex-end;
-                    padding: 30px;
+                    padding: 50px;
                     color: #ffffff;
                 }
-
-                /* Capa oscura para asegurar el contraste del texto */
                 .card-evento::before {
                     content: '';
                     position: absolute;
@@ -35,11 +42,9 @@ class TarjetaEvento extends HTMLElement {
                     left: 0;
                     right: 0;
                     bottom: 0;
-                    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.3) 100%);
+                    background-image: url(https://www.bbva.com/wp-content/uploads/2020/05/festival2.jpg);
                     z-index: 1;
                 }
-
-                /* Contenedor del contenido para quedar por encima del overlay */
                 .card-content {
                     position: relative;
                     z-index: 2;
@@ -47,8 +52,6 @@ class TarjetaEvento extends HTMLElement {
                     flex-direction: column;
                     gap: 12px;
                 }
-
-                /* Contenedor de Etiquetas superiores */
                 .badges-container {
                     display: flex;
                     gap: 8px;
@@ -69,23 +72,18 @@ class TarjetaEvento extends HTMLElement {
                     color: #fbcfe8;
                 }
 
-                /* Título estilo Serif */
                 .card-evento h2 {
                     font-family: 'Georgia', serif;
                     font-size: 2.2rem;
                     font-weight: normal;
                     letter-spacing: 0.5px;
                 }
-
-                /* Descripción */
                 .card-evento p.descripcion {
                     color: #cbd5e1;
                     font-size: 0.95rem;
                     max-width: 600px;
                     line-height: 1.5;
                 }
-
-                /* Fila de metadatos (Fecha, Ubicación, Rating) */
                 .meta-info {
                     display: flex;
                     flex-wrap: wrap;
@@ -106,7 +104,7 @@ class TarjetaEvento extends HTMLElement {
                     font-weight: bold;
                 }
 
-                /* Footer: Botón y Precio */
+                
                 .card-footer {
                     display: flex;
                     align-items: center;
@@ -193,3 +191,13 @@ class TarjetaEvento extends HTMLElement {
 }
 
 customElements.define("tarjeta-evento", TarjetaEvento);
+
+
+btnuser.addEventListener("click", () => {
+    modal.classList.add("oculto");
+});
+
+
+btnadmin.addEventListener("click", () => {
+    window.location.href = "view/login.html";
+});
