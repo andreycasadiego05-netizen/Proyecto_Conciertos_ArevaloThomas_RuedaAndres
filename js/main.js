@@ -22,7 +22,7 @@ class TarjetaEvento extends HTMLElement {
                 .card-evento {
                     position: relative;
                     width: 100%;
-                    max-width: 1150px;
+                    max-width: 1720px;
                     min-height: 320px;
                     border-radius: 28px;
                     margin: 20px auto;

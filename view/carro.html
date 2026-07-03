@@ -10,7 +10,10 @@
 <body>
     <main>
         <nav class="navbar">
-            <a class="logo fade-in" href="../index.html">Boletas</a>
+            <a class="logo fade-in" href="index.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25219.png" class="img-variant" alt="">
+                Boletas
+            </a>
             
             <div class="nav-links fade-in">
                 <a href="../index.html">Inicio</a>
@@ -23,16 +26,13 @@
                 </a>
             </div>
         </nav> 
-        <div>
-            <div>🛒</div>
-            <h2>Tu carrito está vacío</h2>
-            <p>Explora los eventos disponibles y agrega entradas a tu carrito.</p>
-            <button>&lt; Explorar eventos</button>
+        <div class="carrito-vacio-contenedor">
+            <div class="carrito-icono-circulo">🛒</div>
+            <h2 class="carrito-titulo">Tu carrito está vacío</h2>
+            <p class="carrito-descripcion">Explora los eventos disponibles y agrega entradas a tu carrito.</p>
+            <button class="btn-explorar" ><a href="../index.html" >Explorar eventos</a></button>
         </div>
     </main>
-    <script src="js/main.js"></script>
-    <footer>
-        <a href="login.html">administrador modo</a>
-    </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html> 

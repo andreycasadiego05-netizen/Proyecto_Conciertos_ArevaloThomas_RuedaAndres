@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,84 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
     <main>
         <nav class="navbar">
             <a class="logo fade-in" href="index.html">
-                <img src="" class="img-variant" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25219.png" class="img-variant" alt="">
                 Boletas
             </a>
-            
+
             <div class="nav-links fade-in">
                 <a href="index.html">Inicio</a>
                 <a href="view/carro.html">Carrito</a>
             </div>
 
             <div class="navuti float">
-                <a href="#prueba" class="img">
+
+                <a href="view/login.html" class="img">
                     <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" class="img" alt="">
-                    Usuario
+                    VISTA
                 </a>
             </div>
-        </nav> 
-        
-            <tarjeta-evento></tarjeta-evento>
+        </nav>
 
-            <section class="contador-seccion">
-                <div class="contador-bloque">
-                    <div class="calendario">🗓️</div>
-                    <div class="contador-texto">
-                        <h1>6+</h1>
-                        <p>Eventos activos en toda la región</p>
-                    </div>
+        <tarjeta-evento></tarjeta-evento>
+
+        <section class="contador-seccion">
+            <div class="contador-bloque">
+                <div class="calendario">🗓️</div>
+                <div class="contador-texto">
+                    <h1>6+</h1>
+                    <p>Eventos activos en toda la región</p>
                 </div>
-            </section>
+            </div>
+        </section>
+
+
+
+        <section class="filtros">
+            <select id="categoria">
+                <option value="Todas">Todas las categorías</option>
+            </select>
+        </section>
+
+        <section id="contenedor-eventos" class="contenedor-eventos"></section>
+        <section class="contador-seccion pasos-contenedor">
+
+            <div class="pasos-header">
+                <h2>Así de simple</h2>  
+                <p>Compra tus boletos en 3 pasos sin complicaciones</p>
+            </div>
+
+
+            <div class="pasos-bloques">
+
+                <div class="paso-item">
+                    <div class="calendario paso-num paso-1">01</div>
+                    <h3>Elige tu evento</h3>
+                    <p>Explora cientos de eventos en tu ciudad y alrededor del mundo.</p>
+                </div>
+
+
+                <div class="paso-item">
+                    <div class="calendario paso-num paso-2">02</div>
+                    <h3>Selecciona tus lugares</h3>
+                    <p>Elige la cantidad de entradas y el tipo de acceso que prefieres.</p>
+                </div>
+                <div class="paso-item">
+                    <div class="calendario paso-num paso-3">03</div>
+                    <h3>Recibe tus boletos</h3>
+                    <p>Paga de forma segura y recibe tus boletos al instante por email.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
 
 
-    <div id="modal-newsletter" class="modal">
-        <div class="contacto-hover">
-            <button type="button" id="btnuser" class="boton pulse">VISTA CLIENTE</button>
-            <button type="button" id="btnadmin" class="boton pulse">VISTA ADMINISTRADOR</button>
-            </form>
-        </div>
-    </div>
+
 
 
 
@@ -61,9 +97,9 @@
 
     <script src="js/main.js"></script>
 
-    <footer>
-        <a href="login.html">administrador modo</a>
-    </footer>
+    <script src="js/login.js"></script>
+
 
 </body>
-</html> 
+
+</html>

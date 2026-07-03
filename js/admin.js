@@ -17,7 +17,7 @@ fetch("./data/admin.json")
                 contrasena === admin.contrasena
             ) {
                 alert("Bienvenido administrador");
-                window.location.href = "admin.html";
+                window.location.href = "../view/admin.html";
             } else {
                 alert("Correo o contraseña incorrectos");
             }
@@ -35,6 +35,8 @@ class botoneslogin extends HTMLElement {
         this.innerHTML = `
             
         <div>
+
+        <a href="../index.html" class="a-variant">←</a>
         <div>
             <h1>MODO DE ADMINISTRACION</h1>
 
@@ -63,7 +65,9 @@ class botoneslogin extends HTMLElement {
                 >
     
                 <button type="submit" class="boton pulse">
+                <a href="../view/admin.html">
                     INGRESAR
+                    </a>
                 </button>
     
             </form>

@@ -63,3 +63,15 @@ h1 {
 .formulario {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.a-variant{
+    text-decoration: none;
+    color: #070706;
+    font-size: 50px;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
+    }

@@ -1,0 +1,174 @@
+{
+    "categorias": [
+      {
+        "nombre": "Conciertos",
+        "eventos": [
+          {
+            "id": 1,
+            "nombre": "Festival Rock Colombia",
+            "fecha": "2026-08-15",
+            "ciudad": "Medellín",
+            "precio": 180000,
+            "estado": "Disponible",
+            "imagen": "https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/articulo_760x422/public/2024-03/dia_de_rock_medellin.jpg?itok=FcnTEJMg"
+          },
+          {
+            "id": 2,
+            "nombre": "Noche de Jazz",
+            "fecha": "2026-09-12",
+            "ciudad": "Medellín",
+            "precio": 90000,
+            "estado": "Últimas entradas",
+            "imagen": "https://infolocal.comfenalcoantioquia.com/media/com_jbusinessdirectory/pictures/events/7687/jueves_jamsession_26feb.jpg"
+          },
+          {
+            "id": 3,
+            "nombre": "Festival Electrónico",
+            "fecha": "2026-10-01",
+            "ciudad": "Cartagena",
+            "precio": 220000,
+            "estado": "Agotado",
+            "imagen": "https://www.andrescarnederes.com/uploads/blogs/610af6f771565209833693.jpeg"
+          }
+        ]
+      },
+      {
+        "nombre": "Deportes",
+        "eventos": [
+          {
+            "id": 4,
+            "nombre": "Maratón 10K",
+            "fecha": "2026-07-25",
+            "ciudad": "Cali",
+            "precio": 50000,
+            "estado": "Disponible",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9APbWZwUb8Q9_3GyVO6ddwsc5ruxlyE1D0Ac6NzartuY3IC-FRKXFDfH&s=10"
+          },
+          {
+            "id": 5,
+            "nombre": "Final Nacional de Baloncesto",
+            "fecha": "2026-11-05",
+            "ciudad": "Bogotá",
+            "precio": 120000,
+            "estado": "Pocas entradas",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTml2SojB68wp_TXeHydRC55F3ZfzWsqpbdgxk4FLoUox6aUhPdk6xlgyE&s=10"
+          }
+        ]
+      },
+      {
+        "nombre": "Tecnología",
+        "eventos": [
+          {
+            "id": 6,
+            "nombre": "Hackathon Nacional",
+            "fecha": "2026-09-05",
+            "ciudad": "Medellín",
+            "precio": 220000,
+            "estado": "Inscripciones abiertas",
+            "imagen": "https://p4s.co/img/index/c526-1774552954133.jpg"
+          },
+          {
+            "id": 7,
+            "nombre": "Congreso IA 2026",
+            "fecha": "2026-12-02",
+            "ciudad": "Bogotá",
+            "precio": 250000,
+            "estado": "Disponible",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpirWxSQAhQACOREoGZhjuKlIPBVPH4QU-8fW5lOJjCPOzobxTAuYaLJZv&s=10"
+          }
+        ]
+      },
+      {
+        "nombre": "Gastronomía",
+        "eventos": [
+          {
+            "id": 8,
+            "nombre": "Festival del Café",
+            "fecha": "2026-08-20",
+            "ciudad": "Manizales",
+            "precio": 30000,
+            "estado": "Agotado",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHIZFQ1YkNqb_Sdv_g7fKDKa1WWwsqZYy1YEa1veJbcsk3zLWx-ssUJIo&s=10"
+          },
+          {
+            "id": 9,
+            "nombre": "Feria Gourmet",
+            "fecha": "2026-09-15",
+            "ciudad": "Barranquilla",
+            "precio": 40000,
+            "estado": "Disponible",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShinCYGL_iKK44o4Q-y56-n5H_5M68eDgzxZ0H710XzOMrMVG-GbQvWdg&s=10"
+          }
+        ]
+      },
+      {
+        "nombre": "Arte y Cultura",
+        "eventos": [
+          {
+            "id": 10,
+            "nombre": "Exposición de Arte Moderno",
+            "fecha": "2026-08-08",
+            "ciudad": "Bogotá",
+            "precio": 25000,
+            "estado": "Pocas entradas",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62_qHA-iLooXMaeptvZ6lEZDwWxBNpKnm34mbtkc00PJZuG6w3WaE-aud&s=10"
+          },
+          {
+            "id": 11,
+            "nombre": "Festival de Teatro",
+            "fecha": "2026-10-20",
+            "ciudad": "Medellín",
+            "precio": 70000,
+            "estado": "Disponible",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_W1M6f3CacdG0RyRElJL1pQTvVxNEm8Bx0TZyNlBqr2ioTeuDUrhyTV1&s=10"
+          }
+        ]
+      },
+      {
+        "nombre": "Videojuegos",
+        "eventos": [
+          {
+            "id": 12,
+            "nombre": "Gaming Fest",
+            "fecha": "2026-11-12",
+            "ciudad": "Bogotá",
+            "precio": 80000,
+            "estado": "Últimas entradas",
+            "imagen": "https://e00-mx-marca.uecdn.es/mx/assets/multimedia/imagenes/2023/08/03/16910880668013.jpg"
+          },
+          {
+            "id": 13,
+            "nombre": "Torneo Nacional de FIFA",
+            "fecha": "2026-11-22",
+            "ciudad": "Cali",
+            "precio": 35000,
+            "estado": "Inscripciones abiertas",
+            "imagen": "https://imagenes.portafolio.co/files/image_1200_600/uploads/2026/06/11/6a2b14390ef5b.jpeg"
+          }
+        ]
+      },
+      {
+        "nombre": "Negocios",
+        "eventos": [
+          {
+            "id": 14,
+            "nombre": "Expo Emprendimiento",
+            "fecha": "2026-08-30",
+            "ciudad": "Bogotá",
+            "precio": 60000,
+            "estado": "Disponible",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUzn_9f_fI86kKF-xJvTd-QlrORSgGKB_IxPm6oF8siwKV750xW7qqLg&s=10"
+          },
+          {
+            "id": 15,
+            "nombre": "Foro Empresarial",
+            "fecha": "2026-12-05",
+            "ciudad": "Medellín",
+            "precio": 100000,
+            "estado": "Cancelado",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSEADIavNaViJKCH0hiDv1aXxyQX6VJA7wCfs-4nKNok8qRTEo5hOPi-c&s=10"
+          }
+        ]
+      }
+    ]
+  }
