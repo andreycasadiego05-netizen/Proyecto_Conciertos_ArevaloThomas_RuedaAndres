@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administrador</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+
+    <main class="admin-panel">
+        <div id="lista-pagos">
+            <h3></h3>
+            <p></p>
+            <p></p>
+        </div>
+        <header class="admin-header">
+
+            <h1>Panel de Administración</h1>
+
+            <div class="admin-botones">
+                <a href="../index.html" class="btn-volver">
+                    Volver al inicio
+                </a>
+            </div>
+
+        </header>
+
+        <section class="ultimos-pagos">
+            <h2>Últimos pagos</h2>
+        
+            <div id="lista-pagos"></div>
+        </section>
+
+
+
+        <section class="crear-evento">
+
+            <h2>Crear nuevo evento</h2>
+
+            <form id="formEvento">
+
+                <div class="grupo">
+
+                    <label>Nombre del evento</label>
+                    <input type="text" id="nombre" required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <label>Categoría</label>
+
+                    <select id="categoria">
+
+                        <option value="Conciertos">Conciertos</option>
+                        <option value="Festivales">Festivales</option>
+                        <option value="Teatro">Teatro</option>
+                        <option value="Deportes">Deportes</option>
+
+                    </select>
+
+                </div>
+
+                <div class="grupo">
+
+                    <label>Ciudad</label>
+                    <input type="text" id="ciudad" required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <label>Fecha</label>
+                    <input type="date" id="fecha" required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <label>Precio</label>
+                    <input type="number" id="precio" required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <label>Estado</label>
+
+                    <select id="estado">
+
+                        <option value="Disponible">Disponible</option>
+                        <option value="Agotado">Agotado</option>
+
+                    </select>
+
+                </div>
+
+                <div class="grupo">
+
+                    <label>Imagen</label>
+
+                    <input
+                        type="file"
+                        id="imagen"
+                        accept="image/png,image/jpeg,image/webp,image/jpg">
+
+                </div>
+
+                <button type="submit" class="btn-crear">
+
+                    Crear Evento
+
+                </button>
+
+            </form>
+
+            <section class="crear-categoria">
+
+                <h2>Crear categoría</h2>
+            
+                <form id="formCategoria">
+                    <div class="grupo">
+                    <input
+                        type="text"
+                        id="nombreCategoria"
+                        placeholder="Nombre de la categoría"
+                        required> 
+                    </div>
+                    <br>
+                    <button type="submit" class="btn-verde">
+                        Crear categoría
+                    </button>
+                    
+
+                </form>
+                <section class="eliminar-categoria">
+
+                    <h2>Borrar categoría</h2>
+                
+                    <form id="formEliminarCategoria">
+                
+                        <div class="grupo">
+                
+                            <select id="categoriaEliminar"></select>
+                
+                        </div>
+                <br>
+                        <button type="submit" class="btn-borrar">
+                            Borrar categoría
+                        </button>
+                
+                    </form>
+                
+                </section>
+            </section>
+
+        </section>
+
+
+        <section class="lista-eventos">
+
+            <div class="titulo-lista">
+
+                <h2>Eventos registrados</h2>
+
+                <button id="restablecerEventos" class="btn-restablecer">
+
+                    Restaurar datos originales
+
+                </button>
+
+            </div>
+
+
+            <!-- AQUÍ SE IMPRIMEN LAS MISMAS TARJETAS DEL INDEX -->
+
+            <section id="contenedorAdmin" class="contenedor-eventos">
+
+            </section>
+
+        </section>
+
+    </main>
+    <mi-footer></mi-footer>
+
+    <script src="../js/eventos.js"></script>
+    <script src="../js/admin.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/pago.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+    <main>
+
+        <nav class="navbar">
+
+            <a class="logo" href="../index.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25219.png" class="img-variant">
+                Boletas
+            </a>
+
+            <div class="nav-links">
+                <a href="../index.html">Inicio</a>
+                <a href="carro.html">
+
+                    Carrito 🛒
+                
+                    <span id="contadorCarrito">0</span>
+                
+                </a>
+            </div>
+
+        </nav>
+
+        <section class="carrito">
+
+            <h1>Mi carrito</h1>
+
+            <div id="contenedorCarrito"></div>
+
+            <div id="carritoVacio">
+
+                <h2>Tu carrito está vacío</h2>
+
+                <p>Explora los eventos y agrega algunos.</p>
+
+                <a href="../index.html" class="btn-volver">
+                    Explorar eventos
+                </a>
+
+            </div>
+
+            <div id="resumenCarrito">
+
+                <h2>Total:</h2>
+
+                <h1 id="totalCompra">$0</h1>
+
+                <button id="vaciarCarrito">
+                    Vaciar carrito
+                </button>
+
+            </div>
+
+
+            <section class="pago">
+
+                <h2>Información de pago</h2>
+            
+                <form id="formPago">
+            
+                    <input
+                        type="text"
+                        placeholder="Nombre del titular"
+                        required>
+            
+                    <input
+                        type="text"
+                        placeholder="Número de tarjeta"
+                        maxlength="16"
+                        required>
+            
+                    <input
+                        type="text"
+                        placeholder="MM/AA"
+                        maxlength="5"
+                        required>
+            
+                    <input
+                        type="password"
+                        placeholder="CVV"
+                        maxlength="3"
+                        required>
+            
+                    <button type="submit" id="botonpagar">
+                        Pagar
+                    </button>
+            
+                </form>
+            
+            </section>
+        </section>
+
+    </main>
+    <mi-footer></mi-footer>
+
+    <script src="../js/carrito.js"></script>
+     <script src="../js/main.js"></script>
+</body>
+
+</html>

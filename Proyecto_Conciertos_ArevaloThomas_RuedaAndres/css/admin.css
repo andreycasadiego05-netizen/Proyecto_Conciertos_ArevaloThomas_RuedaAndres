@@ -1,0 +1,123 @@
+.admin-panel{
+    width:90%;
+    max-width:1300px;
+    margin:40px auto;
+}
+
+.admin-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.admin-header h1{
+    font-size:2rem;
+}
+
+.btn-volver{
+    text-decoration:none;
+    padding:12px 20px;
+    background:#1d4ed8;
+    color:white;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn-volver:hover{
+    background:#2563eb;
+}
+
+.crear-evento{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:40px;
+    box-shadow:0 0 10px rgba(0,0,0,.08);
+}
+
+.crear-evento h2{
+    margin-bottom:20px;
+}
+
+#formEvento{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.grupo{
+    display:flex;
+    flex-direction:column;
+}
+
+.grupo label{
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.grupo input,
+.grupo select{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.btn-crear{
+    grid-column:1/-1;
+    padding:14px;
+    border:none;
+    background:#4255a7;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.btn-crear:hover{
+    background:#7b85b3;
+}
+
+.titulo-lista{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.btn-restablecer{
+    padding:12px 20px;
+    background:#dc2626;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.btn-restablecer:hover{
+    background:#b91c1c;
+}
+
+.acciones-admin{
+    margin-top:18px;
+}
+
+.eliminar{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#dc2626;
+    color:white;
+    font-weight:bold;
+}
+
+.eliminar:hover{
+    background:#b91c1c;
+}
